@@ -19,7 +19,8 @@ class PascalContextDataset(BaseSegDataset):
     """
 
     METAINFO = dict(
-        classes=('background', 'aeroplane', 'bag', 'bed', 'bedclothes',
+        # Songrh
+        classes=('background', 'instrument', 'bag', 'bed', 'bedclothes',
                  'bench', 'bicycle', 'bird', 'boat', 'book', 'bottle',
                  'building', 'bus', 'cabinet', 'car', 'cat', 'ceiling',
                  'chair', 'cloth', 'computer', 'cow', 'cup', 'curtain', 'dog',
@@ -73,7 +74,7 @@ class PascalContextDataset59(BaseSegDataset):
         ann_file (str): Annotation file path.
     """
     METAINFO = dict(
-        classes=('aeroplane', 'bag', 'bed', 'bedclothes', 'bench', 'bicycle',
+        classes=('instrument', 'bag', 'bed', 'bedclothes', 'bench', 'bicycle',
                  'bird', 'boat', 'book', 'bottle', 'building', 'bus',
                  'cabinet', 'car', 'cat', 'ceiling', 'chair', 'cloth',
                  'computer', 'cow', 'cup', 'curtain', 'dog', 'door', 'fence',
